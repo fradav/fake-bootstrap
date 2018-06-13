@@ -3,6 +3,6 @@ storage: none
 clitool dotnet-fake
 
 group FakeBuild
-source https://api.nuget.org/v3/index.json
-storage: none
-nuget Fake.Core.Target
+    source https://api.nuget.org/v3/index.json
+    storage: none
+    nuget Fake.Core.Target
